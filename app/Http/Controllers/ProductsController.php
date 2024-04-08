@@ -53,7 +53,7 @@ class ProductsController extends Controller
     {
         //
         $product = Product::find($id);
-        return view('products.edit', compact('product'));
+        return view('products.editar', compact('product'));
     }
 
     /**
