@@ -25,8 +25,8 @@
           <label for="stock" class="form-label">Stock:
           <input type="number" class="form-control" id="stock" name="product_stock" value="{{ $product->stock }}">
           </label>
-
-          <button type="submit">Enviar</button>
+        </div>
+        <input type="submit" class="btn btn-success btn-block" name="save" value="Editar">
           </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
